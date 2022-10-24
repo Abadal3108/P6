@@ -32,10 +32,7 @@ $last_id = 0;
 foreach($resulta as $fila){
     // print_r($fila);
     $last_id = $fila['id'];
-    echo $fila['Usuario'] . " - " .$fila['correo'] . '</br>';
-    echo $fila['contrasena'] . " - " .$fila['correo'] . '</br>';
-    echo $fila['nacimiento'] . " - " .$fila['correo'] . '</br>';
-    echo $fila['Admin'] . " - " .$fila['correo'] . '</br>';
+
     echo $fila['Imagen'] . " - " .$fila['correo'] . '</br>';
 }
 // change this link http://localhost/alex/

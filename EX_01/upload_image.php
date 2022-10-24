@@ -9,7 +9,7 @@ if (!empty($_FILES['image'])) {
 		$ex = $ar[count($ar) - 1];
 		$name = 'images/'.rand(1111,22222)."_image.".$ex;
 		move_uploaded_file($_FILES['image']['tmp_name'], $name);
-		$query = "UPDATE `aabadalg_V1_Personas3` SET `Imagen`='".$name."' WHERE id = '9'";
+		$query = "UPDATE `aabadalg_V1_Personas3` SET `Imagen`='".$name."' WHERE id = '1'";
 		$add = $conexion->query($query);
 	}
 }
